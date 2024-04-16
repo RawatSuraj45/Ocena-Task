@@ -16,7 +16,6 @@ export const BtechPDF = ({ name, date }) => {
             <Text>{'\n'}</Text>
             <Text style={styles.heading}>Fee structure:</Text>
             <Text>{'\n'}</Text>
-            {/* Include fee structure table for B.tech */}
             <View style={styles.table}>
               <View style={styles.tableRow}>
                 <Text style={styles.tableCell}>Year</Text>
@@ -66,7 +65,6 @@ export const MtechPDF = ({ name, date }) => {
             <Text>{'\n'}</Text>
             <Text style={styles.heading}>Fee structure:</Text>
             <Text>{'\n'}</Text>
-            {/* Include fee structure table for B.tech */}
             <View style={styles.table}>
               <View style={styles.tableRow}>
                 <Text style={styles.tableCell}>Year</Text>

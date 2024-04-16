@@ -19,11 +19,9 @@ const App = () => {
       content = <MtechPDF name={name} date={currentDate} />;
     }
 
-    // Update the pdfContent state with the generated content
     setPdfContent(content);
   };
 
-  // Reset pdfContent state when user changes input
   const handleInputChange = (e) => {
     setPdfContent(null);
     setName(e.target.value);
